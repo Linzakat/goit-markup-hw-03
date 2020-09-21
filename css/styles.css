@@ -168,12 +168,12 @@ button:hover {
 }
 .title{
     font-weight: 900;
-font-size: 44px;
-line-height: 1.5;
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color:var(--primary-white-color);
+    font-size: 44px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color:var(--primary-white-color);
 }
 .title-button{
     font-weight: bold;
@@ -200,3 +200,4 @@ color:var(--primary-white-color);
 .footer .logo {
     color:var(--primary-white-color);
 }
+.
