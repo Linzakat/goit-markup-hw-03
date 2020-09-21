@@ -149,7 +149,7 @@ button{
     
 button:hover {
 	background:var(--accent-color);
-	color:var(--title-text-color);
+	color:var(--primary-white-color);
 	
 }
 .our-works {
@@ -192,7 +192,11 @@ color:var(--primary-white-color);
 .footer .address,
 .footer .email {
     color: var(--primary-white-color);
+    font-style: normal;
 }
 .our-works-box {
     display: block;
+}
+.footer .logo {
+    color:var(--primary-white-color);
 }
