@@ -43,7 +43,6 @@ body {
 
   .header-site-nav: not(:last-child) {
     margin-right: 50px;
-    justify-content: center;
   }
 .site-nav a {
         font-weight: 500;
