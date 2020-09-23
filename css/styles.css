@@ -29,6 +29,11 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     }
+    .container-header {
+      width: 1600px;
+      height: 80px;
+      border-bottom-width: 1px solid #ECECEC;;
+    }
 .logo {
         font-family: var(--secondary-font);
         font-weight: bold;
@@ -43,6 +48,10 @@ body {
 
   .header-site-nav: not(:last-child) {
     margin-right: 50px;
+    
+  }
+  .header-site-link {
+    display: inline;
   }
 .site-nav a {
         font-weight: 500;
@@ -52,6 +61,8 @@ body {
         color:var(--title-text-color);
         list-style: none;
         margin-left: 93px;
+        display: flex;
+         margin-left: 93px;
       }
 .site-nav a:hover,
 .site-nav a:focus
@@ -94,7 +105,13 @@ body {
   }
 .hero {
     background:#2f303a;
-}   
+}  
+.container-hero {
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+} 
 button{
          font-family: inherit;
      }
@@ -183,17 +200,27 @@ button:hover {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color:var(--primary-white-color);
+    text-transform: uppercase;
+    background-color: #2f303a;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-top: 200px;
 }
 .title-button{
     font-weight: bold;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color:var(--primary-white-color);
     background:var(--accent-color); 
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    display: inline-block;
+    
 }
 .footer {
     background: #2F303A;
@@ -225,6 +252,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   .container-servises {
     margin-left: auto;
