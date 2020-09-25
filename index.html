@@ -20,9 +20,12 @@
                   <li class="header-site-nav"><a class="header-site-link" href="./portfolio.html">Портфолио</a></li>
                   <li class="header-site-nav"><a class="header-site-link" href="">Контакты</a></li>
                 </ul>
-            </nav>        
+            </nav> 
+            <div class="container container-address">
                 <a class="email" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 <address><a class="address" href="тел:+380961111111">+38 096 111 11 11</a></address>
+            </div>       
+                
         </div>
             
     </header>
@@ -38,7 +41,7 @@
         <!-- SERVICES -->
         <section>
             <div class="container container-servises"> 
-                <ul class="list">
+                <ul class="list-servises">
                     <li class="servises">
                         <h3 class="servises-list">Внимание к деталям</h3>
                          <p class="servises-list-item">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -60,53 +63,65 @@
             
         </section>
         <section>
-            <h2 class="content" >Чем мы занимаемся</h2>
-            <ul class="list">
-                <li><img src="./img/box1.jpg" alt="печатает текст на компьютере" width="370" height="294"/></li>
-                <li><img src="./img/box2.jpg" alt="синхронизирует телефон с компьютером" width="370" height="294"/></li>
-                <li><img src="./img/box3.jpg" alt="выбираем палитру цветов" width="370" height="294"/></li>
-            </ul>
+            <div class="container container-content">
+                <h2 class="content" >Чем мы занимаемся</h2>
+                    <ul class="list list-work">
+                        <li class="work-list"><img src="./img/box1.jpg" alt="печатает текст на компьютере" width="370" height="294"/></li>
+                        <li class="work-list"><img src="./img/box2.jpg" alt="синхронизирует телефон с компьютером" width="370" height="294"/></li>
+                        <li class="work-list"><img src="./img/box3.jpg" alt="выбираем палитру цветов" width="370" height="294"/></li>
+                    </ul>
+            </div>
+            
         </section>
         <!-- ABOUT US -->
-        <section>
-            <h2 class="content">Наша команда</h2>
-            <ul class="list">
-                <li>
-                    <img src="./img.workers/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
-                    <h3 class="name-workers">Игорь Демьяненко</h3>
-                    <p class="worker" lang="en">Product Designer</p>
-                </li>
+        <section class="workers">
+            <div class="container container-workers">
+                <h2 class="content">Наша команда</h2>
+                <ul class="list">
+                    <li class="list-workers">
+                        <img src="./img.workers/img.jpg" alt="Игорь Демьяненко" width="270" height="260">
+                        <h3 class="name-workers">Игорь Демьяненко</h3>
+                        <p class="worker" lang="en">Product Designer</p>
+                    </li>
 
-                <li><img src="./img.workers/img(1).jpg" alt="Ольга Репина" width="270" height="260">
-                    <h3 class="name-workers">Ольга Репина</h3>
-                    <p class="worker" lang="en">Frontend Developer</p>
-                </li>
-                <li><img src="./img.workers/img(2).jpg" alt="Николай Тарасов" width="270" height="260">
-                    <h3 class="name-workers">Николай Тарасов</h3>
-                    <p class="worker" lang="en">Marketing</p>
-                </li>
-                <li><img src="./img.workers/img(3).jpg" alt="Михаил Ермаков" width="270" height="260">
-                    <h3 class="name-workers">Михаил Ермаков</h3>
-                    <p class="worker" lang="en">UI Designer</p>
-                </li>
-            </ul>
+                    <li class="list-workers">
+                        <img src="./img.workers/img(1).jpg" alt="Ольга Репина" width="270" height="260">
+                        <h3 class="name-workers">Ольга Репина</h3>
+                        <p class="worker" lang="en">Frontend Developer</p>
+                    </li>
+                    <li class="list-workers">
+                        <img src="./img.workers/img(2).jpg" alt="Николай Тарасов" width="270" height="260">
+                        <h3 class="name-workers">Николай Тарасов</h3>
+                        <p class="worker" lang="en">Marketing</p>
+                    </li>
+                    <li class="list-workers">
+                        <img src="./img.workers/img(3).jpg" alt="Михаил Ермаков" width="270" height="260">
+                        <h3 class="name-workers">Михаил Ермаков</h3>
+                        <p class="worker" lang="en">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
+            
         </section>
     </main>
     <footer class="footer">
-        <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
-        <address>
-            <ul class="list">
-                <li class="site-nav">
-                    <a  class="address" href="https://goo.gl/maps/" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
-                </li>
-                <li class="site-nav">
-                    <a class="email" href="mailto:info@example.com">info@example.com</a>
-                </li>
-                <li class="site-nav">
-                    <a class="address" href="tel:+380991111111">+38 099 111 11 11</a>
-                </li>
-            </ul>
-        </address>
+        <div class="container container-footer">
+             <a class="logo" href="./index.html"><span class="accent">Web</span>Studio</a>
+            <address>
+                <ul class="footer-site">
+                    <li class="site-navigation">
+                        <a  class="address" href="https://goo.gl/maps/" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
+                    </li>
+                    <li class="site-navigation">
+                     <a class="email" href="mailto:info@example.com">info@example.com</a>
+                    </li>
+                    <li class="site-navigation">
+                     <a class="telefon" href="tel:+380991111111">+38 099 111 11 11</a>
+                    </li>
+                </ul>
+            </address>
+        </div>
+        
     </footer>
     
 </body>
