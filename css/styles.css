@@ -39,9 +39,8 @@ body {
     .container-header {
       width: 1600px;
       height: 80px;
-      border-bottom-width: 1px solid #ECECEC;
-      
-    }
+      border-bottom: 1px solid #ECECEC;
+      }
 .logo {
         font-family: var(--secondary-font);
         font-weight: bold;
@@ -359,4 +358,14 @@ img {
   .site-navigation .email,
   .site-navigation .telefon {
     color: rgba(255, 255, 255, 0.6);
+  }
+  .container-ourworks-button {
+    margin-top: 94px;
+    padding-bottom: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container-ourworks-button:not(:last-child) {
+    margin-right: 8px;    
   }
