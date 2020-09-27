@@ -89,6 +89,12 @@ body {
         display: flex;
         
       }
+.header-site-nav {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
+}
 .site-nav a:hover,
 .site-nav a:focus
 {
@@ -142,13 +148,15 @@ body {
     background:#2f303a;
 }  
 .container-hero {
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
 } 
 button{
          font-family: inherit;
+         margin-left: auto;
+         margin-right: auto;
      }
 .adress {
     font-style: normal;
@@ -191,8 +199,9 @@ button{
 .list-work:not(:last-child) {
   margin-right: 30px;
 }
-.list-workers {
+.list .list-workers {
   border-radius: 0px 0px 4px 4px;
+  background: #FFFFFF;
 }
 .workers {
   background: #f5f4fa;
@@ -234,15 +243,19 @@ button{
     line-height: 1.62;
     letter-spacing: 0.03em;
     color:var(--title-text-color);
+    background: #f5f4fa;
     text-align: center;
     margin-right: 8px;
     border-radius: 4px;
-    text-transform: none;
-    box-sizing: border-box;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 22px;
+    padding-left: 22px;
     
 }
     
-button:hover {
+.button:hover,
+.button:focus{
 	background:var(--accent-color);
 	color:var(--primary-white-color);
 	
@@ -286,10 +299,10 @@ button:hover {
     background:var(--accent-color); 
     width: 200px;
     height: 50px;
-    margin-left: 700px;
-    margin-bottom: 200px;
-    display: inline-block;
-    
+    display: block;
+    justify-content: center;
+   
+  
     
 }
 .footer {
