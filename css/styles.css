@@ -29,6 +29,9 @@ body {
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
     }
+    .header {
+      border-bottom: 1px solid #ececec;
+    }
     .container {
       margin-left: auto;
       margin-right: auto;
@@ -39,7 +42,7 @@ body {
     .container-header {
       width: 1600px;
       height: 80px;
-      border-bottom: 1px solid #ECECEC;
+    
       }
 .logo {
         font-family: var(--secondary-font);
@@ -71,8 +74,13 @@ body {
   list-style: none;
   display: flex;
   font-style: normal;
-  
 }
+.footer-site .site-navigation .address,
+.footer-site .site-navigation .email,
+.footer-site .site-navigation .telefon {
+  line-height: 1.71;
+}
+
 .site-navigation a:hover,
 .site-navigation a:focus  {
   color:var(--accent-color);
@@ -243,15 +251,24 @@ button{
     line-height: 1.62;
     letter-spacing: 0.03em;
     color:var(--title-text-color);
-    background: #f5f4fa;
+    background-color: #f5f4fa;
     text-align: center;
-    margin-right: 8px;
     border-radius: 4px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    padding-right: 22px;
-    padding-left: 22px;
-    
+    padding: 6px 22px;
+    border-style: none;
+    text-transform: none;
+    box-sizing: border-box;
+}
+.container-ourworks-button {
+  padding-top: 94px;
+  padding-bottom: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.button:not(:last-child) {
+  margin-right: 8px;    
 }
     
 .button:hover,
@@ -266,13 +283,21 @@ button{
     line-height: 2;
     letter-spacing: 0.06em;
     color:var(--title-text-color);
+    margin-bottom: 4px;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
+
 .our-work-item {
     font-weight: normal;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 20px;
 }
 .title{
     font-weight: 900;
@@ -372,13 +397,24 @@ img {
   .site-navigation .telefon {
     color: rgba(255, 255, 255, 0.6);
   }
-  .container-ourworks-button {
-    margin-top: 94px;
-    padding-bottom: 34px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  .our-works-box {
+    width 370px;
+    background: #ffffff;
   }
-  .container-ourworks-button:not(:last-child) {
-    margin-right: 8px;    
+  .our-works-box:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
+  .container-ourworks .our-works-box {
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+  .container-ourworks .list > li:nth-child(3n) {
+    margin-right: 0px;
+  }
+  .container-ourworks .list > li:nth-last-child(-n + 3) {
+    margin-bottom: 0px;
+  }
+  .container-ourworks {
+    margin-bottom: 94px;
   }
