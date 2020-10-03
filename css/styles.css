@@ -245,7 +245,7 @@ button{
   
 }
 
-.button{
+.portfolio-btn{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -267,12 +267,12 @@ button{
   align-items: center;
   flex-wrap: wrap;
 }
-.button:not(:last-child) {
+ .portfolio-btn:not(:last-child) {
   margin-right: 8px;    
 }
     
-.button:hover,
-.button:focus{
+.portfolio-btn:hover,
+.portfolio-btn:focus{
 	background:var(--accent-color);
 	color:var(--primary-white-color);
 	
@@ -408,6 +408,12 @@ img {
   .container-ourworks .our-works-box {
     margin-right: 30px;
     margin-bottom: 30px;
+  }
+  .our-works-box > our-works-box-item {
+    width: 322px;
+    height: 70px;
+    padding: 20px 24px;
+    
   }
   .container-ourworks .list > li:nth-child(3n) {
     margin-right: 0px;
